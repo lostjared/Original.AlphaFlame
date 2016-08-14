@@ -1,0 +1,17 @@
+Requires SDL 1.2 and SDL_stretch
+download untar
+
+$ ./autogen.sh && ./configure && make
+
+new arguments 
+
+width, height example use
+
+
+./af 640 480
+
+list of images is built in , replace simply copy over current. Images
+must be 480x272x32 or will not work, regardless of size of stretched video
+surface.
+
+
